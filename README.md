@@ -9,7 +9,7 @@ RGBeam is a minimalist Android app built with Kotlin and Jetpack Compose that al
 - 🎨 Live background color change based on selected hue and brightness
 - 🌗 Smooth sliders for:
   - Hue (0°–360°)
-  - Brightness (0–100%)
+  - Brightness (0–100%) **not yet implemented but will be
 - 🛑 Displays a warning on launch about potential overheating with prolonged usage
 - 🧼 Clean, Compose-based UI
 
