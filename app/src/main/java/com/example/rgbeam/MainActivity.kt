@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             RGBeamTheme {
                 Scaffold( modifier = Modifier.fillMaxSize() ) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Sam",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -42,6 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     RGBeamTheme {
-        Greeting("Android")
+        Greeting("Sam")
     }
 }
