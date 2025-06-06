@@ -37,10 +37,12 @@ android {
     buildFeatures {
         compose = true
     }
+    buildToolsVersion = "36.0.0"
 }
 
 dependencies {
-
+    implementation ("com.google.android.gms:play-services-ads:22.6.0") // or latest
+    implementation("androidx.lifecycle:lifecycle-process:2.8.3")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -49,6 +51,11 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.protolite.well.known.types)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
